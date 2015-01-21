@@ -122,7 +122,7 @@ function init_fosdick_integration_class() {
                     'type' => 'textarea',
                     'default' => ''
                 ),
-                'description' => array(
+                'postURL' => array(
                     'title' => 'Fosdick Endpoint URL',
                     'description' => 'The URL that fosdick gave to send payments to',
                     'type' => 'text',
